@@ -1,0 +1,12 @@
+{
+    "shops": [{
+            "location": "Portland",
+            "address": "123 Porltand Dr"
+        },{
+            "location": "Astoria",
+            "address": "123 Astoria Dr"
+        },{
+            "location": "",
+            "address": ""
+        }]
+}
