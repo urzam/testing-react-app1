@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import { shallow } from 'enzyme';
 import Button from '../Button';
 
@@ -11,6 +12,11 @@ describe("Button", function(){
 
   it('renders without crashing', () => {
     let mountedButton = shallow(<Button />);
+  });
+
+  it('renders without crashing jest', () => {
+    const div = document.createElement('div');
+    ReactDOM.render(<Button />, div);
   });
 
   it('renders a button', () => {

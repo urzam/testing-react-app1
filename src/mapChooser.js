@@ -1,4 +1,4 @@
-function mapChooser(locationName) {
+const mapChooser = (locationName) => {
     if (!locationName) {
         locationName = "none";
     }

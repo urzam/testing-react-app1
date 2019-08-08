@@ -4,7 +4,7 @@ import StoreLocator from '../StoreLocator';
 import axios from 'axios';
 import renderer from 'react-test-renderer';
 
-describe("StoreLocator", function(){
+describe("StoreLocator", () => {
   let mountedStoreLocator;
 
   beforeEach(()=>{
